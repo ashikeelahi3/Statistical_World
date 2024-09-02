@@ -1,5 +1,17 @@
 {
+  "name": "statistical_world",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js"
+  },
+  "author": "Ashik E Elahi",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
-    "flowbite-react": "^0.10.1"
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
   }
 }
