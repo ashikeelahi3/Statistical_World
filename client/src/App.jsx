@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Home from "./pages/Home"
 import NotFound from "./pages/NotFound"
-import About from "./pages/About"
 import Dashboard from "./pages/Dashboard"
 import Notes from "./pages/Notes"
 import Programming from "./pages/Programming"
@@ -19,7 +18,6 @@ function App() {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/about" element={<About />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/notes" element={<Notes />} />
         <Route path="/programming" element={<Programming />} />
