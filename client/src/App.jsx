@@ -7,6 +7,7 @@ import Programming from "./pages/Programming"
 import SignIn from "./pages/SignIn"
 import SignUp from "./pages/SignUp"
 import Header from "./components/Header"
+import Footer from "./components/Footer"
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
         <Route path="/programming" element={<Programming />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      {/* <Footer /> */}
     </BrowserRouter>
   )
 }
